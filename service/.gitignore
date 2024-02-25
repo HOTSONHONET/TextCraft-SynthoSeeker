@@ -8,6 +8,10 @@ __pycache__/
 
 
 # Ignoring model folder
+src/models
+
+# Ignoring Notebooks folder
+Notebooks
 
 
 # Ignoring Resources
