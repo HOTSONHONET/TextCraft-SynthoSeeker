@@ -11,7 +11,7 @@ __pycache__/
 src/models
 
 # Ignoring Notebooks folder
-Notebooks
+# Notebooks
 
 
 # Ignoring Resources
