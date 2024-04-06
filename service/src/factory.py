@@ -25,7 +25,7 @@ def start_service() -> FastAPI:
         allow_origins = ["*"],
         allow_credentials = True,
         allow_methods = ["*"],
-        allow_headers = ["*"],
+        allow_headers = ["*"]
     )
 
     # Registering start up and shutdown events
@@ -34,7 +34,7 @@ def start_service() -> FastAPI:
 
 
     # Adding exception handling middleware
-    app.add_middleware(
+    app.add_exception_handler(
         Exception,
         default_exception_handler
     )
